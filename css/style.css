@@ -19,6 +19,7 @@ hr {
   border-color: rgba(20, 24, 110, 0.81);
   border-width: 10px;
   width: 5%;
+  margin: 50px auto;
 }
 
 h1 {
@@ -62,11 +63,11 @@ h1 {
 .buspro {
   height: 10%;
   width: 10%;
+  position: relative;
 }
 
 .buspro1 {
-  height: 10%;
-  width: 15%;
+  top: 10px;
 }
 
 .skill-detail{
@@ -93,13 +94,20 @@ h1 {
   text-decoration: none;
   padding: 20px;
   color: inherit;
+  display: inline-block;
 }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
   background-color: rgb(20, 24, 110);
   background-color: rgba(20, 24, 110, 0.81);
   color: #f3f986;
   color: rgba(243, 249, 134, 1);
   padding: 10px;
+}
+
+.profile-img {
+  width: 35%;
+  height: 35%;
 }
